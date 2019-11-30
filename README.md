@@ -1,20 +1,9 @@
-# docker-2048
+# docker-travel-frontend
 
-simple is better
-
-a smaller docker version of 2048
-
-Base on gabrielecirulli/2048(https://github.com/gabrielecirulli/2048)
-
-Base on alpine
-
-Base on nginx
 
 #dockerfile
 
     FROM alpine:latest
-
-    MAINTAINER alex <alexwhen@gmail.com>
 
     RUN apk --update add nginx
 
